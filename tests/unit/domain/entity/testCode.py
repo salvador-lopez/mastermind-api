@@ -7,7 +7,7 @@ from src.domain.game.entity.code import Code
 from src.domain.game.entity.codePeg import CodePeg
 
 
-class CodeTest(TestCase):
+class TestCode(TestCase):
     def test_code_can_be_created(self):
         id = uuid.uuid4()
         created_at = datetime.now()

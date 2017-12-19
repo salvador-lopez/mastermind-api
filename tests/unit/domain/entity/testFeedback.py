@@ -6,7 +6,7 @@ from datetime import datetime
 from src.domain.game.entity.feedback import Feedback
 
 
-class FeedbackTest(TestCase):
+class TestFeedback(TestCase):
     def test_feedback_can_be_created(self):
         id = uuid.uuid4()
         created_at = datetime.now()

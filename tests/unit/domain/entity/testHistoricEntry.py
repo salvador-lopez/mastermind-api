@@ -10,7 +10,7 @@ from src.domain.game.entity.game import Game
 from src.domain.game.entity.historicEntry import HistoricEntry
 
 
-class HistoricEntryTest(TestCase):
+class TestHistoricEntry(TestCase):
     def test_game_can_be_created(self):
         id = uuid.uuid4()
         created_at = datetime.now()

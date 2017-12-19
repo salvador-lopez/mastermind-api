@@ -8,7 +8,7 @@ from src.domain.game.entity.code import Code
 from src.domain.game.entity.game import Game
 
 
-class GameTest(TestCase):
+class TestGame(TestCase):
     def test_game_can_be_created(self):
         id = uuid.uuid4()
         created_at = datetime.now()
