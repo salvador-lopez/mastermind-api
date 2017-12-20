@@ -1,0 +1,50 @@
+[
+  {
+    "model": "games.djangoCodePeg",
+    "pk": "786fd1d3-3cac-4fc9-9822-2f6c4e476668",
+    "fields": {
+      "_created_at": "2017-09-01T13:20:30+03:00",
+      "_color_value": "RED"
+    }
+  },
+  {
+    "model": "games.djangoCodePeg",
+    "pk": "7ebe3de3-2c9a-4b03-80ea-b86450b8d68b",
+    "fields": {
+      "_created_at": "2017-09-01T13:20:30+03:00",
+      "_color_value": "GREEN"
+    }
+  },
+    {
+    "model": "games.djangoCodePeg",
+      "pk": "8a4ec595-8354-4068-8e02-8ee2ebd6255c",
+    "fields": {
+      "_created_at": "2017-09-01T13:20:30+03:00",
+      "_color_value": "ORANGE"
+    }
+  },
+    {
+    "model": "games.djangoCodePeg",
+      "pk": "ebaa5c6c-ddfb-40e3-b4b2-36b532221744",
+    "fields": {
+      "_created_at": "2017-09-01T13:20:30+03:00",
+      "_color_value": "BLUE"
+    }
+  },
+    {
+    "model": "games.djangoCodePeg",
+      "pk": "3a3a6400-07d5-4bb7-b1e9-7041fb8d5367",
+    "fields": {
+      "_created_at": "2017-09-01T13:20:30+03:00",
+      "_color_value": "YELLOW"
+    }
+  },
+    {
+    "model": "games.djangoCodePeg",
+      "pk": "64f45230-9b3f-4837-b8a4-682a12d704ca",
+    "fields": {
+      "_created_at": "2017-09-01T13:20:30+03:00",
+      "_color_value": "PURPLE"
+    }
+  }
+]
