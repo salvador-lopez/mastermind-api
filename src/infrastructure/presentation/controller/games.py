@@ -58,7 +58,7 @@ def get_historical(request: HttpRequest, game_id: uuid):
         return _build_json_response(get_historic_by_game_id_use_case.execute(get_historic_by_game_id_request),
                                     STATUS_OK)
     except GameNotFoundException as e:
-        return _build_json_response(e.message, STATUS_NOT_FOUND)
+        return _build_json_response({'code': STATUS_NOT_FOUND, "detail": str(e.message)}, STATUS_NOT_FOUND)
 
 
 def _build_json_response(data: dict, status: int) -> JsonResponse:
