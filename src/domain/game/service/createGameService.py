@@ -4,14 +4,11 @@ from src.domain.game.factory.gameFactory import GameFactory
 from src.domain.game.repository.gameRepository import GameRepository
 
 
-class CreateGameService:
-    def __init__(self, game_factory: GameFactory, game_repository: GameRepository):
-        self._game_factory = game_factory
-        self._game_repository = game_repository
+class CreateGameService(GameFactory, GameRepository):
 
     def execute(self, code: Code) -> Game:
-        game = self._game_factory.create(code)
+        game = super().create(code)
 
-        self._game_repository.save(game)
+        super().save(game)
 
         return game
